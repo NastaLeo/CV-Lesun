@@ -89,6 +89,10 @@ h3 {
     color: rgb(226, 169, 169);
 }   
 
+h3:hover {
+    cursor: pointer;
+}
+
 p span {
     font-weight: 600;
 }
