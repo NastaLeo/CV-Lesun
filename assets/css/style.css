@@ -98,5 +98,7 @@ p span {
 }
 
 .hide {
-    display: none;
+    height: 0px;
+    overflow: hidden;
+    transition: height .5s ease-out;
 }

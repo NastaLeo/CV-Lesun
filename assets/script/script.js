@@ -29,4 +29,3 @@ skills.addEventListener('click', function(event) {
         item.classList.toggle('hide')
     }
 })
-
