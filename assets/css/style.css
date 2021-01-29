@@ -1,6 +1,11 @@
+body {
+    margin: 0px;
+    background-color:  rgb(247, 238, 238);
+}
+
 .wrapper {
     width: 75vw;
-    margin: 0px auto;
+        margin: 0px auto;
     line-height: 23px;
     font-size: 17px; 
 }
@@ -18,7 +23,8 @@ h1, h2 {
 
 h1 {
     font-size: 34px;
-    padding-top: 40px;
+    padding-top: 35px;
+    margin: 0px;
 }
 
 h2 {
@@ -37,7 +43,7 @@ main {
 
 .right-col {
     width: 70%;
-    background-color: rgb(241, 239, 239);
+    background-color:  rgb(233, 230, 230);
     padding-left: 5%;
     padding-right: 5%;
     text-align: justify;
@@ -45,13 +51,16 @@ main {
 
 .left-col__foto {
     padding: 10%;
-    width: 80%;
+    text-align: center;
 }
 
-img {
+img.my_photo {
+    width: 200px;
     max-width: 100%;
+    margin: 0px;
     height: auto;
-    border-radius: 60%;
+    text-align: center;
+    border-radius: 60%; 
 }
 
 .left-col__about-me {
@@ -97,8 +106,15 @@ p span {
     font-weight: 600;
 }
 
+p {
+    overflow: hidden;
+    transition: height .9s ease-in-out, overflow .9s ease-in-out, margin .9s ease-in-out, padding .9s ease-in-out;
+}
+
 .hide {
     height: 0px;
     overflow: hidden;
-    transition: height .5s ease-out;
+    margin: 0px;
+    padding: 0px;
 }
+
