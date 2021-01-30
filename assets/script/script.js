@@ -1,31 +1,35 @@
 let education = document.querySelector('.right-col__education');
-let educationDescription = document.querySelectorAll('.right-col__education p');
+let educationContent = document.querySelector('.right-col__education .content');
 
 education.addEventListener('click', function(event) {
     if (event.target.tagName != 'H3') return;
-    for(let item of educationDescription) {
-        item.classList.toggle('hide')
-    }    
+    educationContent.classList.toggle('hide')
+    // for(let item of educationContent) {
+    //     item.classList.toggle('hide')
+    // }    
 })
 
 
 let work = document.querySelector('.right-col__work');
-let workDescription = document.querySelectorAll('.right-col__work p');
+let workContent = document.querySelector('.right-col__work .content');
 
 work.addEventListener('click', function(event) {
     if (event.target.tagName != 'H3') return;
-    for(let item of workDescription) {
-        item.classList.toggle('hide')
-    }
+    workContent.classList.toggle('hide')
+    // for(let item of workContent) {
+    //     item.classList.toggle('hide')
+    // }
 })
 
 
 let skills = document.querySelector('.right-col__skills');
-let skillsDescription = document.querySelectorAll('.right-col__skills p');
+let skillsContent = document.querySelector('.right-col__skills .content');
 
 skills.addEventListener('click', function(event) {
     if (event.target.tagName != 'H3') return;
-    for(let item of skillsDescription) {
-        item.classList.toggle('hide')
-    }
+    skillsContent.classList.toggle('hide')
+    // for(let item of skillsContent) {
+    //     item.classList.toggle('hide')
+    // }
 })
+

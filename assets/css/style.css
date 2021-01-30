@@ -106,7 +106,7 @@ p span {
     font-weight: 600;
 }
 
-p {
+.content {
     overflow: hidden;
     transition: height .9s ease-in-out, overflow .9s ease-in-out, margin .9s ease-in-out, padding .9s ease-in-out;
 }
